@@ -24,25 +24,22 @@ Este projeto implementa **modelos preditivos de aprendizado de máquina** para i
 
 ## 📊 **Estrutura do projeto**
 ```
-bank-prediction/
-├── src/                    # Código-fonte principal
-│   ├── preprocessing.py    # Pré-processamento de dados
-│   ├── models.py          # Implementação dos modelos
-│   ├── evaluation.py      # Métricas e validação
-│   └── predictor.py       # API de predição
-├── notebooks/             # Análises exploratórias
-│   ├── 01_eda.ipynb      # Análise exploratória
-│   └── 02_modelos.ipynb  # Desenvolvimento de modelos
-├── data/                  # Dados e processamentos
-│   ├── raw/              # Dados originais
-│   └── processed/        # Dados processados
-├── models/               # Modelos treinados
-│   └── best_model.pkl   # Modelo otimizado
-├── app.py               # Interface Gradio
-├── requirements.txt     # Dependências
-├── config.yaml         # Configurações
-└── README.md           # Esta documentação
-```
+├── data/
+│   └── bank-additional-full.csv        # Dataset original
+│
+├── notebooks/
+│   └── ProjetoFinal_ML2.ipynb           # Notebook principal com toda a análise
+│
+├── models/
+│   └── svm_model.pkl                   # Modelo final treinado (SVM)
+│
+├── app/
+│   └── app_gradio.py                   # Aplicação interativa com Gradio
+│
+├── requirements.txt                    # Dependências do projeto
+│
+├── README.md                           # Documentação do projeto
+
 
 
 
